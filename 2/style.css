@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;1,200&family=Kantumruy+Pro:wght@200&family=Manrope&family=Montserrat:wght@200&family=Press+Start+2P&family=Roboto&family=Tajawal&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+.logo {
+    height: 100px;
+    margin-right: auto;
+}
+li, a, button{
+    font-weight: 500;
+    font-size:22px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+header{
+    background-color:rgba(8, 72, 88, 0.918);
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:30px 10%;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-item{
+    display:inline-block;
+    padding:0px 20px;
+}
+.nav-item a{
+    transition: all 0.3s ease 0s;
+}
+.nav-item a:hover{
+    color: #0088a9;
+}
+button{
+    margin-left:20px;
+    padding:9px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
